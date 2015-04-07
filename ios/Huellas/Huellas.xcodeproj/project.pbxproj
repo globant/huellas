@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18FD17F41AD3108200F77040 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FD17F31AD3108200F77040 /* SWRevealViewController.m */; };
+		18FD17F91AD3150800F77040 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD17F81AD3150800F77040 /* MenuController.swift */; };
+		18FD17FB1AD3182F00F77040 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD17FA1AD3182F00F77040 /* InicioViewController.swift */; };
+		18FD17FD1AD326BC00F77040 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD17FC1AD326BC00F77040 /* PerfilViewController.swift */; };
 		3F6640BA1AC37BA3000962FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6640B91AC37BA3000962FC /* AppDelegate.swift */; };
 		3F6640BD1AC37BA3000962FC /* Huellas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F6640BB1AC37BA3000962FC /* Huellas.xcdatamodeld */; };
 		3F6640BF1AC37BA3000962FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6640BE1AC37BA3000962FC /* ViewController.swift */; };
@@ -28,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18FD17F11AD3108200F77040 /* Huellas-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Huellas-Bridging-Header.h"; sourceTree = "<group>"; };
+		18FD17F21AD3108200F77040 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		18FD17F31AD3108200F77040 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		18FD17F81AD3150800F77040 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		18FD17FA1AD3182F00F77040 /* InicioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		18FD17FC1AD326BC00F77040 /* PerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
 		3F6640B41AC37BA3000962FC /* Huellas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huellas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6640B81AC37BA3000962FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F6640B91AC37BA3000962FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +82,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		18FD17F01AD3104400F77040 /* sidebarmenu */ = {
+			isa = PBXGroup;
+			children = (
+				18FD17F21AD3108200F77040 /* SWRevealViewController.h */,
+				18FD17F31AD3108200F77040 /* SWRevealViewController.m */,
+				18FD17F11AD3108200F77040 /* Huellas-Bridging-Header.h */,
+			);
+			name = sidebarmenu;
+			sourceTree = "<group>";
+		};
 		3F6640AB1AC37BA2000962FC = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +115,12 @@
 		3F6640B61AC37BA3000962FC /* Huellas */ = {
 			isa = PBXGroup;
 			children = (
+				18FD17F01AD3104400F77040 /* sidebarmenu */,
 				3F6640B91AC37BA3000962FC /* AppDelegate.swift */,
 				3F6640BE1AC37BA3000962FC /* ViewController.swift */,
+				18FD17F81AD3150800F77040 /* MenuController.swift */,
+				18FD17FA1AD3182F00F77040 /* InicioViewController.swift */,
+				18FD17FC1AD326BC00F77040 /* PerfilViewController.swift */,
 				3F6640C01AC37BA3000962FC /* Main.storyboard */,
 				3F6640C31AC37BA3000962FC /* Images.xcassets */,
 				3F6640C51AC37BA3000962FC /* LaunchScreen.xib */,
@@ -274,9 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FD17F91AD3150800F77040 /* MenuController.swift in Sources */,
+				18FD17FB1AD3182F00F77040 /* InicioViewController.swift in Sources */,
 				3F6640BF1AC37BA3000962FC /* ViewController.swift in Sources */,
 				3F6640BD1AC37BA3000962FC /* Huellas.xcdatamodeld in Sources */,
 				3F6640BA1AC37BA3000962FC /* AppDelegate.swift in Sources */,
+				18FD17FD1AD326BC00F77040 /* PerfilViewController.swift in Sources */,
+				18FD17F41AD3108200F77040 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,9 +430,12 @@
 			baseConfigurationReference = A7A4A1BDB407AE31185A278A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Huellas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Huellas/Huellas-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -413,9 +444,11 @@
 			baseConfigurationReference = E3A1EDA8DDF5545DCE28C97A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Huellas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Huellas/Huellas-Bridging-Header.h";
 			};
 			name = Release;
 		};
