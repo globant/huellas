@@ -9,9 +9,14 @@
 import UIKit
 
 class PerfilViewController: UIViewController {
+    @IBOutlet weak var profileImage: UIImageView!
  @IBOutlet weak var menuButton:UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.profileImage.layer.cornerRadius = self.profileImage.frame.size.width / 2;
+        self.profileImage.clipsToBounds = true;
+        self.profileImage.layer.borderWidth = 3.0;
+        self.profileImage.layer.borderColor = UIColor.whiteColor().CGColor
 
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
