@@ -48,7 +48,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func onLoginGPlusPressed(sender: AnyObject) {
+        var storyboard = UIStoryboard(name: "MyProfile", bundle: nil)
+        var controller = storyboard.instantiateViewControllerWithIdentifier("ProfileViewController") as ProfileViewController
         
+        self.presentViewController(controller, animated: true, completion: nil)
     }
     
     @IBAction func onLoginFacebookPressed(sender: AnyObject) {

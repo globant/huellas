@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18104F991AD466FE000BADEB /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18104F981AD466FE000BADEB /* Profile.storyboard */; };
 		18FD17F41AD3108200F77040 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FD17F31AD3108200F77040 /* SWRevealViewController.m */; };
 		18FD17F91AD3150800F77040 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD17F81AD3150800F77040 /* MenuController.swift */; };
 		18FD17FB1AD3182F00F77040 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD17FA1AD3182F00F77040 /* InicioViewController.swift */; };
-		18FD17FD1AD326BC00F77040 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD17FC1AD326BC00F77040 /* PerfilViewController.swift */; };
 		3F6640BA1AC37BA3000962FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6640B91AC37BA3000962FC /* AppDelegate.swift */; };
 		3F6640BD1AC37BA3000962FC /* Huellas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F6640BB1AC37BA3000962FC /* Huellas.xcdatamodeld */; };
 		3F6640BF1AC37BA3000962FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6640BE1AC37BA3000962FC /* ViewController.swift */; };
@@ -20,6 +18,8 @@
 		3F6640C71AC37BA3000962FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6640C51AC37BA3000962FC /* LaunchScreen.xib */; };
 		3F6640D31AC37BA3000962FC /* HuellasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6640D21AC37BA3000962FC /* HuellasTests.swift */; };
 		A9584789557A06C0362F4897 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C990921E8C651E4212CA7C /* libPods.a */; };
+		E27488501AD591BE004C6FD0 /* MyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E274884F1AD591BE004C6FD0 /* MyProfile.storyboard */; };
+		E27488521AD59291004C6FD0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27488511AD59291004C6FD0 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18104F981AD466FE000BADEB /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		18FD17F11AD3108200F77040 /* Huellas-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Huellas-Bridging-Header.h"; sourceTree = "<group>"; };
 		18FD17F21AD3108200F77040 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		18FD17F31AD3108200F77040 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		18FD17F81AD3150800F77040 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		18FD17FA1AD3182F00F77040 /* InicioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
-		18FD17FC1AD326BC00F77040 /* PerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
 		3F6640B41AC37BA3000962FC /* Huellas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huellas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6640B81AC37BA3000962FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F6640B91AC37BA3000962FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		3F6640D21AC37BA3000962FC /* HuellasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuellasTests.swift; sourceTree = "<group>"; };
 		55C990921E8C651E4212CA7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A4A1BDB407AE31185A278A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E274884F1AD591BE004C6FD0 /* MyProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyProfile.storyboard; sourceTree = "<group>"; };
+		E27488511AD59291004C6FD0 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E3A1EDA8DDF5545DCE28C97A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,13 +122,13 @@
 				3F6640BE1AC37BA3000962FC /* ViewController.swift */,
 				18FD17F81AD3150800F77040 /* MenuController.swift */,
 				18FD17FA1AD3182F00F77040 /* InicioViewController.swift */,
-				18FD17FC1AD326BC00F77040 /* PerfilViewController.swift */,
-				18104F981AD466FE000BADEB /* Profile.storyboard */,
+				E274884F1AD591BE004C6FD0 /* MyProfile.storyboard */,
 				3F6640C01AC37BA3000962FC /* Main.storyboard */,
 				3F6640C31AC37BA3000962FC /* Images.xcassets */,
 				3F6640C51AC37BA3000962FC /* LaunchScreen.xib */,
 				3F6640BB1AC37BA3000962FC /* Huellas.xcdatamodeld */,
 				3F6640B71AC37BA3000962FC /* Supporting Files */,
+				E27488511AD59291004C6FD0 /* ProfileViewController.swift */,
 			);
 			path = Huellas;
 			sourceTree = "<group>";
@@ -250,7 +250,7 @@
 			files = (
 				3F6640C21AC37BA3000962FC /* Main.storyboard in Resources */,
 				3F6640C71AC37BA3000962FC /* LaunchScreen.xib in Resources */,
-				18104F991AD466FE000BADEB /* Profile.storyboard in Resources */,
+				E27488501AD591BE004C6FD0 /* MyProfile.storyboard in Resources */,
 				3F6640C41AC37BA3000962FC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,7 +307,7 @@
 				3F6640BF1AC37BA3000962FC /* ViewController.swift in Sources */,
 				3F6640BD1AC37BA3000962FC /* Huellas.xcdatamodeld in Sources */,
 				3F6640BA1AC37BA3000962FC /* AppDelegate.swift in Sources */,
-				18FD17FD1AD326BC00F77040 /* PerfilViewController.swift in Sources */,
+				E27488521AD59291004C6FD0 /* ProfileViewController.swift in Sources */,
 				18FD17F41AD3108200F77040 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
