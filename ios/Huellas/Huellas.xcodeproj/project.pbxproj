@@ -7,32 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		180B84511AD4110E00E9C101 /* A Gentle Touch.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180B843A1AD4110E00E9C101 /* A Gentle Touch.ttf */; };
-		180B84521AD4110E00E9C101 /* CONTRIBUTING.txt in Resources */ = {isa = PBXBuildFile; fileRef = 180B843B1AD4110E00E9C101 /* CONTRIBUTING.txt */; };
-		180B84531AD4110E00E9C101 /* copyright.txt in Resources */ = {isa = PBXBuildFile; fileRef = 180B843C1AD4110E00E9C101 /* copyright.txt */; };
-		180B84541AD4110E00E9C101 /* FONTLOG.txt in Resources */ = {isa = PBXBuildFile; fileRef = 180B843D1AD4110E00E9C101 /* FONTLOG.txt */; };
-		180B84551AD4110E00E9C101 /* LICENCE-FAQ.txt in Resources */ = {isa = PBXBuildFile; fileRef = 180B843E1AD4110E00E9C101 /* LICENCE-FAQ.txt */; };
-		180B84561AD4110E00E9C101 /* LICENCE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 180B843F1AD4110E00E9C101 /* LICENCE.txt */; };
-		180B84571AD4110E00E9C101 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 180B84401AD4110E00E9C101 /* README.txt */; };
-		180B84581AD4110E00E9C101 /* TRADEMARKS.txt in Resources */ = {isa = PBXBuildFile; fileRef = 180B84411AD4110E00E9C101 /* TRADEMARKS.txt */; };
-		180B84591AD4110E00E9C101 /* Ubuntu-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180B84421AD4110E00E9C101 /* Ubuntu-B.ttf */; };
-		180B845A1AD4110E00E9C101 /* Ubuntu-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180B84431AD4110E00E9C101 /* Ubuntu-BI.ttf */; };
-		180B845B1AD4110E00E9C101 /* Ubuntu-C.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180B84441AD4110E00E9C101 /* Ubuntu-C.ttf */; };
-		180B845C1AD4110E00E9C101 /* Ubuntu-L.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180B84451AD4110E00E9C101 /* Ubuntu-L.ttf */; };
-		180B845D1AD4110E00E9C101 /* Ubuntu-LI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180B84461AD4110E00E9C101 /* Ubuntu-LI.ttf */; };
-		180B845E1AD4110E00E9C101 /* Ubuntu-M.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180B84471AD4110E00E9C101 /* Ubuntu-M.ttf */; };
-		180B845F1AD4110E00E9C101 /* Ubuntu-MI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180B84481AD4110E00E9C101 /* Ubuntu-MI.ttf */; };
-		180B84601AD4110E00E9C101 /* Ubuntu-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180B84491AD4110E00E9C101 /* Ubuntu-R.ttf */; };
-		180B84611AD4110E00E9C101 /* Ubuntu-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180B844A1AD4110E00E9C101 /* Ubuntu-RI.ttf */; };
-		180B84621AD4110E00E9C101 /* UbuntuMono-B.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180B844B1AD4110E00E9C101 /* UbuntuMono-B.ttf */; };
-		180B84631AD4110E00E9C101 /* UbuntuMono-BI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180B844C1AD4110E00E9C101 /* UbuntuMono-BI.ttf */; };
-		180B84641AD4110E00E9C101 /* UbuntuMono-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180B844D1AD4110E00E9C101 /* UbuntuMono-R.ttf */; };
-		180B84651AD4110E00E9C101 /* UbuntuMono-RI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180B844E1AD4110E00E9C101 /* UbuntuMono-RI.ttf */; };
-		180B84671AD4127E00E9C101 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180B84661AD4127E00E9C101 /* Home.storyboard */; };
 		18FD17F41AD3108200F77040 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FD17F31AD3108200F77040 /* SWRevealViewController.m */; };
 		18FD17F91AD3150800F77040 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD17F81AD3150800F77040 /* MenuController.swift */; };
 		18FD17FB1AD3182F00F77040 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD17FA1AD3182F00F77040 /* InicioViewController.swift */; };
-		18FD17FD1AD326BC00F77040 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD17FC1AD326BC00F77040 /* PerfilViewController.swift */; };
 		3F6640BA1AC37BA3000962FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6640B91AC37BA3000962FC /* AppDelegate.swift */; };
 		3F6640BD1AC37BA3000962FC /* Huellas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F6640BB1AC37BA3000962FC /* Huellas.xcdatamodeld */; };
 		3F6640BF1AC37BA3000962FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6640BE1AC37BA3000962FC /* ViewController.swift */; };
@@ -41,6 +18,8 @@
 		3F6640C71AC37BA3000962FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F6640C51AC37BA3000962FC /* LaunchScreen.xib */; };
 		3F6640D31AC37BA3000962FC /* HuellasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6640D21AC37BA3000962FC /* HuellasTests.swift */; };
 		A9584789557A06C0362F4897 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C990921E8C651E4212CA7C /* libPods.a */; };
+		E27488501AD591BE004C6FD0 /* MyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E274884F1AD591BE004C6FD0 /* MyProfile.storyboard */; };
+		E27488521AD59291004C6FD0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27488511AD59291004C6FD0 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,34 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		180B843A1AD4110E00E9C101 /* A Gentle Touch.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "A Gentle Touch.ttf"; sourceTree = "<group>"; };
-		180B843B1AD4110E00E9C101 /* CONTRIBUTING.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTING.txt; sourceTree = "<group>"; };
-		180B843C1AD4110E00E9C101 /* copyright.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = copyright.txt; sourceTree = "<group>"; };
-		180B843D1AD4110E00E9C101 /* FONTLOG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FONTLOG.txt; sourceTree = "<group>"; };
-		180B843E1AD4110E00E9C101 /* LICENCE-FAQ.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LICENCE-FAQ.txt"; sourceTree = "<group>"; };
-		180B843F1AD4110E00E9C101 /* LICENCE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENCE.txt; sourceTree = "<group>"; };
-		180B84401AD4110E00E9C101 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		180B84411AD4110E00E9C101 /* TRADEMARKS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TRADEMARKS.txt; sourceTree = "<group>"; };
-		180B84421AD4110E00E9C101 /* Ubuntu-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-B.ttf"; sourceTree = "<group>"; };
-		180B84431AD4110E00E9C101 /* Ubuntu-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BI.ttf"; sourceTree = "<group>"; };
-		180B84441AD4110E00E9C101 /* Ubuntu-C.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-C.ttf"; sourceTree = "<group>"; };
-		180B84451AD4110E00E9C101 /* Ubuntu-L.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-L.ttf"; sourceTree = "<group>"; };
-		180B84461AD4110E00E9C101 /* Ubuntu-LI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LI.ttf"; sourceTree = "<group>"; };
-		180B84471AD4110E00E9C101 /* Ubuntu-M.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-M.ttf"; sourceTree = "<group>"; };
-		180B84481AD4110E00E9C101 /* Ubuntu-MI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MI.ttf"; sourceTree = "<group>"; };
-		180B84491AD4110E00E9C101 /* Ubuntu-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-R.ttf"; sourceTree = "<group>"; };
-		180B844A1AD4110E00E9C101 /* Ubuntu-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-RI.ttf"; sourceTree = "<group>"; };
-		180B844B1AD4110E00E9C101 /* UbuntuMono-B.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-B.ttf"; sourceTree = "<group>"; };
-		180B844C1AD4110E00E9C101 /* UbuntuMono-BI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-BI.ttf"; sourceTree = "<group>"; };
-		180B844D1AD4110E00E9C101 /* UbuntuMono-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-R.ttf"; sourceTree = "<group>"; };
-		180B844E1AD4110E00E9C101 /* UbuntuMono-RI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UbuntuMono-RI.ttf"; sourceTree = "<group>"; };
-		180B84661AD4127E00E9C101 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		18FD17F11AD3108200F77040 /* Huellas-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Huellas-Bridging-Header.h"; sourceTree = "<group>"; };
 		18FD17F21AD3108200F77040 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		18FD17F31AD3108200F77040 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		18FD17F81AD3150800F77040 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		18FD17FA1AD3182F00F77040 /* InicioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
-		18FD17FC1AD326BC00F77040 /* PerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
 		3F6640B41AC37BA3000962FC /* Huellas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huellas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6640B81AC37BA3000962FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F6640B91AC37BA3000962FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +51,8 @@
 		3F6640D21AC37BA3000962FC /* HuellasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuellasTests.swift; sourceTree = "<group>"; };
 		55C990921E8C651E4212CA7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A4A1BDB407AE31185A278A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E274884F1AD591BE004C6FD0 /* MyProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyProfile.storyboard; sourceTree = "<group>"; };
+		E27488511AD59291004C6FD0 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		E3A1EDA8DDF5545DCE28C97A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,42 +84,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		180B844F1AD4110E00E9C101 /* ubuntu-font-family-0.80 */ = {
-			isa = PBXGroup;
-			children = (
-				180B843B1AD4110E00E9C101 /* CONTRIBUTING.txt */,
-				180B843C1AD4110E00E9C101 /* copyright.txt */,
-				180B843D1AD4110E00E9C101 /* FONTLOG.txt */,
-				180B843E1AD4110E00E9C101 /* LICENCE-FAQ.txt */,
-				180B843F1AD4110E00E9C101 /* LICENCE.txt */,
-				180B84401AD4110E00E9C101 /* README.txt */,
-				180B84411AD4110E00E9C101 /* TRADEMARKS.txt */,
-				180B84421AD4110E00E9C101 /* Ubuntu-B.ttf */,
-				180B84431AD4110E00E9C101 /* Ubuntu-BI.ttf */,
-				180B84441AD4110E00E9C101 /* Ubuntu-C.ttf */,
-				180B84451AD4110E00E9C101 /* Ubuntu-L.ttf */,
-				180B84461AD4110E00E9C101 /* Ubuntu-LI.ttf */,
-				180B84471AD4110E00E9C101 /* Ubuntu-M.ttf */,
-				180B84481AD4110E00E9C101 /* Ubuntu-MI.ttf */,
-				180B84491AD4110E00E9C101 /* Ubuntu-R.ttf */,
-				180B844A1AD4110E00E9C101 /* Ubuntu-RI.ttf */,
-				180B844B1AD4110E00E9C101 /* UbuntuMono-B.ttf */,
-				180B844C1AD4110E00E9C101 /* UbuntuMono-BI.ttf */,
-				180B844D1AD4110E00E9C101 /* UbuntuMono-R.ttf */,
-				180B844E1AD4110E00E9C101 /* UbuntuMono-RI.ttf */,
-			);
-			path = "ubuntu-font-family-0.80";
-			sourceTree = "<group>";
-		};
-		180B84501AD4110E00E9C101 /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-				180B843A1AD4110E00E9C101 /* A Gentle Touch.ttf */,
-				180B844F1AD4110E00E9C101 /* ubuntu-font-family-0.80 */,
-			);
-			path = fonts;
-			sourceTree = "<group>";
-		};
 		18FD17F01AD3104400F77040 /* sidebarmenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,7 +97,6 @@
 		3F6640AB1AC37BA2000962FC = {
 			isa = PBXGroup;
 			children = (
-				180B84501AD4110E00E9C101 /* fonts */,
 				3F6640B61AC37BA3000962FC /* Huellas */,
 				3F6640CF1AC37BA3000962FC /* HuellasTests */,
 				3F6640B51AC37BA3000962FC /* Products */,
@@ -201,13 +122,13 @@
 				3F6640BE1AC37BA3000962FC /* ViewController.swift */,
 				18FD17F81AD3150800F77040 /* MenuController.swift */,
 				18FD17FA1AD3182F00F77040 /* InicioViewController.swift */,
-				18FD17FC1AD326BC00F77040 /* PerfilViewController.swift */,
-				180B84661AD4127E00E9C101 /* Home.storyboard */,
+				E274884F1AD591BE004C6FD0 /* MyProfile.storyboard */,
 				3F6640C01AC37BA3000962FC /* Main.storyboard */,
 				3F6640C31AC37BA3000962FC /* Images.xcassets */,
 				3F6640C51AC37BA3000962FC /* LaunchScreen.xib */,
 				3F6640BB1AC37BA3000962FC /* Huellas.xcdatamodeld */,
 				3F6640B71AC37BA3000962FC /* Supporting Files */,
+				E27488511AD59291004C6FD0 /* ProfileViewController.swift */,
 			);
 			path = Huellas;
 			sourceTree = "<group>";
@@ -327,31 +248,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				180B84561AD4110E00E9C101 /* LICENCE.txt in Resources */,
 				3F6640C21AC37BA3000962FC /* Main.storyboard in Resources */,
-				180B84621AD4110E00E9C101 /* UbuntuMono-B.ttf in Resources */,
-				180B84541AD4110E00E9C101 /* FONTLOG.txt in Resources */,
-				180B845A1AD4110E00E9C101 /* Ubuntu-BI.ttf in Resources */,
-				180B84511AD4110E00E9C101 /* A Gentle Touch.ttf in Resources */,
-				180B84641AD4110E00E9C101 /* UbuntuMono-R.ttf in Resources */,
-				180B84571AD4110E00E9C101 /* README.txt in Resources */,
-				180B845C1AD4110E00E9C101 /* Ubuntu-L.ttf in Resources */,
 				3F6640C71AC37BA3000962FC /* LaunchScreen.xib in Resources */,
-				180B84591AD4110E00E9C101 /* Ubuntu-B.ttf in Resources */,
-				180B845E1AD4110E00E9C101 /* Ubuntu-M.ttf in Resources */,
-				180B84581AD4110E00E9C101 /* TRADEMARKS.txt in Resources */,
-				180B84521AD4110E00E9C101 /* CONTRIBUTING.txt in Resources */,
-				180B84601AD4110E00E9C101 /* Ubuntu-R.ttf in Resources */,
-				180B84551AD4110E00E9C101 /* LICENCE-FAQ.txt in Resources */,
-				180B84531AD4110E00E9C101 /* copyright.txt in Resources */,
-				180B84651AD4110E00E9C101 /* UbuntuMono-RI.ttf in Resources */,
+				E27488501AD591BE004C6FD0 /* MyProfile.storyboard in Resources */,
 				3F6640C41AC37BA3000962FC /* Images.xcassets in Resources */,
-				180B84611AD4110E00E9C101 /* Ubuntu-RI.ttf in Resources */,
-				180B845F1AD4110E00E9C101 /* Ubuntu-MI.ttf in Resources */,
-				180B84671AD4127E00E9C101 /* Home.storyboard in Resources */,
-				180B845D1AD4110E00E9C101 /* Ubuntu-LI.ttf in Resources */,
-				180B845B1AD4110E00E9C101 /* Ubuntu-C.ttf in Resources */,
-				180B84631AD4110E00E9C101 /* UbuntuMono-BI.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +307,7 @@
 				3F6640BF1AC37BA3000962FC /* ViewController.swift in Sources */,
 				3F6640BD1AC37BA3000962FC /* Huellas.xcdatamodeld in Sources */,
 				3F6640BA1AC37BA3000962FC /* AppDelegate.swift in Sources */,
-				18FD17FD1AD326BC00F77040 /* PerfilViewController.swift in Sources */,
+				E27488521AD59291004C6FD0 /* ProfileViewController.swift in Sources */,
 				18FD17F41AD3108200F77040 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
