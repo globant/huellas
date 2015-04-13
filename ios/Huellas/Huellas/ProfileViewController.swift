@@ -9,17 +9,27 @@
 import UIKit
 
 class ProfileViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+
+    required init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     @IBOutlet weak var profileImage: UIImageView!
     
     @IBOutlet weak var addPetButton: UIButton!
     @IBOutlet weak var reportsButton: UIButton!
     @IBOutlet weak var petsButton: UIButton!
-    
+    var pets: NSMutableArray = []
+    var reports: NSMutableArray = []
+    var isReportsActive: Bool
     //@IBOutlet weak var menuButton:UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.pets = NSMutableArray()
+        self.reports = NSMutableArray()
+        self.isReportsActive = false
         
         var imageView = UIImageView()
         imageView.image = UIImage(named: "bg-miperfil.png")
@@ -73,16 +83,29 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
     }
     
      func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
+        if self.isReportsActive {
+            return self.reports.count
+        }else {
+            return self.pets.count
+        }
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        if self.isReportsActive {
+            return UITableViewCell()
+        }else {
+            return UITableViewCell()
+        }
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        if self.isReportsActive {
+            return self.reports.count
+        }else {
+            return self.pets.count
+        }
     }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
