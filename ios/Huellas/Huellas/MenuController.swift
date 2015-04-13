@@ -12,7 +12,7 @@ class MenuController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(red:0.29, green:0.71,blue:0.67,alpha:1.0)
+        //self.view.backgroundColor = UIColor(red:0.29, green:0.71,blue:0.67,alpha:1.0)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 

@@ -12,6 +12,7 @@ class InicioViewController: UIViewController {
  @IBOutlet weak var menuButton:UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.setNeedsStatusBarAppearanceUpdate()
         if self.revealViewController() != nil {
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"

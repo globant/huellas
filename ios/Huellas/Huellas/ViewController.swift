@@ -9,7 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    let permissions = ["public_profile"]
     let transparent = UIColor.clearColor().CGColor
 
     @IBOutlet weak var passwordTextField: UITextField!
@@ -51,22 +52,35 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onLoginFacebookPressed(sender: AnyObject) {
-        
-    }
+        PFFacebookUtils.logInWithPermissions(self.permissions, {
+            (user: PFUser!, error: NSError!) -> Void in
+            if user == nil {
+                NSLog("Uh oh. The user cancelled the Facebook login.")
+            } else{
+                self.logedIn()
+            }
+            
+        })
+            }
     
     @IBAction func onLoginButtonPressed(sender: AnyObject) {
-        let storyboard = UIStoryboard(name: "Home", bundle: nil)
-        storyboard.instantiateInitialViewController()
-        let fvc = storyboard.instantiateViewControllerWithIdentifier("inicioViewController") as InicioViewController
-        let rvc = storyboard.instantiateViewControllerWithIdentifier("menuController") as MenuController
-        
-        let nfvc:UINavigationController = UINavigationController(rootViewController: fvc)
-        let nrvc:UINavigationController = UINavigationController(rootViewController: rvc)
-        let reveal:SWRevealViewController = storyboard.instantiateViewControllerWithIdentifier("revealViewController") as SWRevealViewController
-        reveal.rearViewController = nrvc
-        reveal.frontViewController = nfvc
-        self.presentViewController(reveal, animated: true, completion: nil)
+      
+       self.logedIn()
         
     }
+func logedIn(){
+    let storyboard = UIStoryboard(name: "Home", bundle: nil)
+    storyboard.instantiateInitialViewController()
+    let fvc = storyboard.instantiateViewControllerWithIdentifier("inicioViewController") as InicioViewController
+    let rvc = storyboard.instantiateViewControllerWithIdentifier("menuController") as MenuController
+    
+    let nfvc:UINavigationController = UINavigationController(rootViewController: fvc)
+    let nrvc:UINavigationController = UINavigationController(rootViewController: rvc)
+    let reveal:SWRevealViewController = storyboard.instantiateViewControllerWithIdentifier("revealViewController") as SWRevealViewController
+    reveal.rearViewController = nrvc
+    reveal.frontViewController = nfvc
+    self.presentViewController(reveal, animated: true, completion: nil)
+}
+
 }
 

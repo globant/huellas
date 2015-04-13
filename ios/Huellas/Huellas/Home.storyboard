@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1066" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qXn-og-Eed">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qXn-og-Eed">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
@@ -36,7 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bum-zI-qP6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3860" y="385"/>
+            <point key="canvasLocation" x="4672" y="385"/>
         </scene>
         <!--Menu Controller-->
         <scene sceneID="FJA-G3-5zB">
@@ -45,8 +45,10 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="avL-NX-dIy">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.94085192679999996" green="0.94903725390000004" blue="0.95307987930000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.29803922770000002" green="0.6784313917" blue="0.63137257099999999" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="separatorColor" red="0.29803922770000002" green="0.6784313917" blue="0.63137257099999999" alpha="1" colorSpace="deviceRGB"/>
                         <color key="sectionIndexBackgroundColor" red="0.29019609089999998" green="0.70980393890000004" blue="0.67058825489999996" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="sectionIndexTrackingBackgroundColor" red="0.29803922770000002" green="0.6784313917" blue="0.63137257099999999" alpha="1" colorSpace="deviceRGB"/>
                         <sections>
                             <tableViewSection id="Xlr-9G-rRq">
                                 <cells>
@@ -174,8 +176,9 @@
                     <view key="view" contentMode="scaleToFill" id="wJg-hZ-RmN">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="TkL-bc-R52"/>
                     <connections>
                         <segue destination="V3G-hn-P5M" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="4bT-4W-s3f"/>
                         <segue destination="lxW-Cp-YcF" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="VLK-dj-7J0"/>
@@ -183,6 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zkp-3i-ymR" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="952" y="136"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xYi-J5-iKf">
@@ -201,7 +205,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vj3-Zr-JoQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2858" y="349"/>
+            <point key="canvasLocation" x="3670" y="349"/>
         </scene>
         <!--Perfil View Controller-->
         <scene sceneID="VTr-gS-4gD">

@@ -270,6 +270,10 @@ You can get the attribution text by making a call to
 
 See https://www.parse.com/about/terms
 
+## ParseFacebookUtils
+
+See https://www.parse.com/about/terms
+
 ## RestKit
 
 

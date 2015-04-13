@@ -6,6 +6,7 @@ pod 'RestKit', '~>  0.20.0'
 pod 'googleplus-ios-sdk', '~>  1.7' 
 pod 'Google-Maps-iOS-SDK', '~> 1.9'
 pod 'Parse', '~> 1.7'
+pod 'ParseFacebookUtils'
 
 target 'Huellas' do
 
