@@ -16,7 +16,7 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
     @IBOutlet weak var reportsButton: UIButton!
     @IBOutlet weak var petsButton: UIButton!
     
-    //    @IBOutlet weak var menuButton:UIBarButtonItem!
+    //@IBOutlet weak var menuButton:UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,13 +27,13 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
         
         
         self.updateReporsButton(false)
-       self.convertProfileImageToCircle()
+        self.convertProfileImageToCircle()
         
-        //        if self.revealViewController() != nil {
-        //            menuButton.target = self.revealViewController()
-        //            menuButton.action = "revealToggle:"
-        //            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
-        //        }
+        //if self.revealViewController() != nil {
+        //  menuButton.target = self.revealViewController()
+        //  menuButton.action = "revealToggle:"
+        //  self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        //}
     }
     
     func convertProfileImageToCircle(){
@@ -55,14 +55,20 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
     func updateReporsButton(isFromReport: Bool){
     
         if isFromReport{
-            let image = UIImage(named: "btn-reportar") as UIImage!
-            self.petsButton.imageView?.image = UIImage(named: "btn-misMascotas")
-            self.reportsButton.imageView?.image = UIImage(named: "btn-selectedMisReportes")
-            self.addPetButton.setImage(image, forState: UIControlState.Normal)
+            let imageMyPets = UIImage(named: "btn-misMascotas") as UIImage!
+            let imageMyReports = UIImage(named: "btn-selectedMisReportes") as UIImage!
+
+            self.petsButton.setImage(imageMyPets, forState: UIControlState.Normal)
+            self.reportsButton.setImage(imageMyReports, forState: UIControlState.Normal)
+            self.addPetButton.setTitle("Reportar mascota", forState: UIControlState.Normal)
         }else{
-            self.petsButton.imageView?.image = UIImage(named: "btn-selectedMisMascotas")
-            self.reportsButton.imageView?.image = UIImage(named: "btn-misReportes")
-                        self.addPetButton.imageView?.image=UIImage(named: "btn-agregarMascota")
+            
+            let imageMyPets = UIImage(named: "btn-selectedMisMascotas") as UIImage!
+            let imageMyReports = UIImage(named: "btn-misReportes") as UIImage!
+            
+            self.petsButton.setImage(imageMyPets, forState: UIControlState.Normal)
+            self.reportsButton.setImage(imageMyReports, forState: UIControlState.Normal)
+            self.addPetButton.setTitle("Agregar Mascota", forState: UIControlState.Normal)
         }
     }
     

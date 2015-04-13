@@ -117,18 +117,18 @@
 		3F6640B61AC37BA3000962FC /* Huellas */ = {
 			isa = PBXGroup;
 			children = (
-				18FD17F01AD3104400F77040 /* sidebarmenu */,
 				3F6640B91AC37BA3000962FC /* AppDelegate.swift */,
-				3F6640BE1AC37BA3000962FC /* ViewController.swift */,
-				18FD17F81AD3150800F77040 /* MenuController.swift */,
-				18FD17FA1AD3182F00F77040 /* InicioViewController.swift */,
-				E274884F1AD591BE004C6FD0 /* MyProfile.storyboard */,
-				3F6640C01AC37BA3000962FC /* Main.storyboard */,
-				3F6640C31AC37BA3000962FC /* Images.xcassets */,
-				3F6640C51AC37BA3000962FC /* LaunchScreen.xib */,
 				3F6640BB1AC37BA3000962FC /* Huellas.xcdatamodeld */,
-				3F6640B71AC37BA3000962FC /* Supporting Files */,
+				3F6640C31AC37BA3000962FC /* Images.xcassets */,
+				18FD17FA1AD3182F00F77040 /* InicioViewController.swift */,
+				3F6640C51AC37BA3000962FC /* LaunchScreen.xib */,
+				3F6640C01AC37BA3000962FC /* Main.storyboard */,
+				18FD17F81AD3150800F77040 /* MenuController.swift */,
+				E274884F1AD591BE004C6FD0 /* MyProfile.storyboard */,
 				E27488511AD59291004C6FD0 /* ProfileViewController.swift */,
+				18FD17F01AD3104400F77040 /* sidebarmenu */,
+				3F6640B71AC37BA3000962FC /* Supporting Files */,
+				3F6640BE1AC37BA3000962FC /* ViewController.swift */,
 			);
 			path = Huellas;
 			sourceTree = "<group>";
