@@ -122,12 +122,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         openURL url: NSURL,
         sourceApplication: String?,
         annotation: AnyObject?) -> Bool {
-           // if FBAppCall.handleOpenURL(url, sourceApplication:sourceApplication,
-          //  withSession:PFFacebookUtils.session()){
-        //    return true
-         //   } else{
+            NSLog("%@", url.absoluteString!)
+           if FBAppCall.handleOpenURL(url, sourceApplication:sourceApplication,
+           withSession:PFFacebookUtils.session()){
+            NSLog("face url")
+           return true
+           } else{
+             NSLog("gid url")
                 return GIDSignIn.sharedInstance().handleURL(url, sourceApplication: sourceApplication, annotation: annotation)
-       //     }
+            }
     }
     
     func applicationDidBecomeActive(application: UIApplication) {
