@@ -19,9 +19,10 @@
 		3F6640D31AC37BA3000962FC /* HuellasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6640D21AC37BA3000962FC /* HuellasTests.swift */; };
 		A9584789557A06C0362F4897 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C990921E8C651E4212CA7C /* libPods.a */; };
 		E20BF5B51ADC380A00D31C08 /* CreateAccount.xib in Resources */ = {isa = PBXBuildFile; fileRef = E20BF5B41ADC380A00D31C08 /* CreateAccount.xib */; };
-		E20BF5B71ADC382D00D31C08 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20BF5B61ADC382D00D31C08 /* CreateAccountViewController.swift */; };
 		E27488501AD591BE004C6FD0 /* MyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E274884F1AD591BE004C6FD0 /* MyProfile.storyboard */; };
 		E27488521AD59291004C6FD0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27488511AD59291004C6FD0 /* ProfileViewController.swift */; };
+		E290AA3D1ADEC1DE005E0BBE /* CreateAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E290AA3C1ADEC1DE005E0BBE /* CreateAccount.storyboard */; };
+		E290AA3F1ADEC392005E0BBE /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E290AA3E1ADEC392005E0BBE /* AccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +55,10 @@
 		55C990921E8C651E4212CA7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7A4A1BDB407AE31185A278A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E20BF5B41ADC380A00D31C08 /* CreateAccount.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateAccount.xib; sourceTree = "<group>"; };
-		E20BF5B61ADC382D00D31C08 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		E274884F1AD591BE004C6FD0 /* MyProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyProfile.storyboard; sourceTree = "<group>"; };
 		E27488511AD59291004C6FD0 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E290AA3C1ADEC1DE005E0BBE /* CreateAccount.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CreateAccount.storyboard; sourceTree = "<group>"; };
+		E290AA3E1ADEC392005E0BBE /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		E3A1EDA8DDF5545DCE28C97A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,17 +126,18 @@
 				18FD17F01AD3104400F77040 /* sidebarmenu */,
 				3F6640B91AC37BA3000962FC /* AppDelegate.swift */,
 				3F6640BE1AC37BA3000962FC /* ViewController.swift */,
+				E290AA3E1ADEC392005E0BBE /* AccountViewController.swift */,
 				18FD17F81AD3150800F77040 /* MenuController.swift */,
 				18FD17FA1AD3182F00F77040 /* InicioViewController.swift */,
 				E274884F1AD591BE004C6FD0 /* MyProfile.storyboard */,
 				3F6640C01AC37BA3000962FC /* Main.storyboard */,
 				3F6640C31AC37BA3000962FC /* Images.xcassets */,
+				E290AA3C1ADEC1DE005E0BBE /* CreateAccount.storyboard */,
 				3F6640C51AC37BA3000962FC /* LaunchScreen.xib */,
 				3F6640BB1AC37BA3000962FC /* Huellas.xcdatamodeld */,
 				3F6640B71AC37BA3000962FC /* Supporting Files */,
 				E27488511AD59291004C6FD0 /* ProfileViewController.swift */,
 				E20BF5B41ADC380A00D31C08 /* CreateAccount.xib */,
-				E20BF5B61ADC382D00D31C08 /* CreateAccountViewController.swift */,
 			);
 			path = Huellas;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			files = (
 				3F6640C21AC37BA3000962FC /* Main.storyboard in Resources */,
 				3F6640C71AC37BA3000962FC /* LaunchScreen.xib in Resources */,
+				E290AA3D1ADEC1DE005E0BBE /* CreateAccount.storyboard in Resources */,
 				E27488501AD591BE004C6FD0 /* MyProfile.storyboard in Resources */,
 				E20BF5B51ADC380A00D31C08 /* CreateAccount.xib in Resources */,
 				3F6640C41AC37BA3000962FC /* Images.xcassets in Resources */,
@@ -311,9 +315,9 @@
 			files = (
 				18FD17F91AD3150800F77040 /* MenuController.swift in Sources */,
 				18FD17FB1AD3182F00F77040 /* InicioViewController.swift in Sources */,
+				E290AA3F1ADEC392005E0BBE /* AccountViewController.swift in Sources */,
 				3F6640BF1AC37BA3000962FC /* ViewController.swift in Sources */,
 				3F6640BD1AC37BA3000962FC /* Huellas.xcdatamodeld in Sources */,
-				E20BF5B71ADC382D00D31C08 /* CreateAccountViewController.swift in Sources */,
 				3F6640BA1AC37BA3000962FC /* AppDelegate.swift in Sources */,
 				E27488521AD59291004C6FD0 /* ProfileViewController.swift in Sources */,
 				18FD17F41AD3108200F77040 /* SWRevealViewController.m in Sources */,
