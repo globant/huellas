@@ -18,8 +18,43 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1575107636078647</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.globant.labs.huellas.Huellas</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.globant.labs.huellas.Huellas</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>332137352831-tg565ph50hjsigmocgqlaftnduikspvi.apps.googleusercontent.com
+</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>332137352831-tg565ph50hjsigmocgqlaftnduikspvi.apps.googleusercontent.com
+</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>2</string>
+	<key>FacebookAppID</key>
+	<string>1575107636078647</string>
+	<key>FacebookDisplayName</key>
+	<string>Huellas</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -42,19 +77,6 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
-	<key>FacebookAppID</key>
-	<string>1575107636078647</string>
-	<key>FacebookDisplayName</key>
-	<string>Huellas</string>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>fb1575107636078647</string>
-			</array>
-		</dict>
 	</array>
 </dict>
 </plist>

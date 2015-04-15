@@ -20,6 +20,9 @@
 		18C36AB11ADC3F5100A42139 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C36AA41ADC3F5100A42139 /* Social.framework */; };
 		18C36AB21ADC3F5100A42139 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C36AA51ADC3F5100A42139 /* StoreKit.framework */; };
 		18C36AB31ADC3F5100A42139 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C36AA61ADC3F5100A42139 /* SystemConfiguration.framework */; };
+		18E61E1C1ADD9E3700E67F32 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E61E1B1ADD9E3700E67F32 /* AddressBook.framework */; };
+		18E61E1F1ADD9F4700E67F32 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18E61E1D1ADD9F4700E67F32 /* GoogleSignIn.bundle */; };
+		18E61E201ADD9F4700E67F32 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E61E1E1ADD9F4700E67F32 /* GoogleSignIn.framework */; };
 		18FD17F41AD3108200F77040 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FD17F31AD3108200F77040 /* SWRevealViewController.m */; };
 		18FD17F91AD3150800F77040 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD17F81AD3150800F77040 /* MenuController.swift */; };
 		18FD17FB1AD3182F00F77040 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FD17FA1AD3182F00F77040 /* InicioViewController.swift */; };
@@ -60,6 +63,9 @@
 		18C36AA41ADC3F5100A42139 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		18C36AA51ADC3F5100A42139 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		18C36AA61ADC3F5100A42139 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18E61E1B1ADD9E3700E67F32 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		18E61E1D1ADD9F4700E67F32 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		18E61E1E1ADD9F4700E67F32 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
 		18FD17F11AD3108200F77040 /* Huellas-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Huellas-Bridging-Header.h"; sourceTree = "<group>"; };
 		18FD17F21AD3108200F77040 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		18FD17F31AD3108200F77040 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -89,12 +95,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E61E1C1ADD9E3700E67F32 /* AddressBook.framework in Frameworks */,
 				18C36AA71ADC3F5100A42139 /* Accounts.framework in Frameworks */,
 				18C36AA81ADC3F5100A42139 /* AudioToolbox.framework in Frameworks */,
 				18C36AA91ADC3F5100A42139 /* CFNetwork.framework in Frameworks */,
 				18C36AAA1ADC3F5100A42139 /* CoreGraphics.framework in Frameworks */,
 				18C36AAB1ADC3F5100A42139 /* CoreLocation.framework in Frameworks */,
 				18C36AAC1ADC3F5100A42139 /* libsqlite3.dylib in Frameworks */,
+				18E61E201ADD9F4700E67F32 /* GoogleSignIn.framework in Frameworks */,
 				18C36AAD1ADC3F5100A42139 /* libz.dylib in Frameworks */,
 				18C36AAE1ADC3F5100A42139 /* MobileCoreServices.framework in Frameworks */,
 				18C36AAF1ADC3F5100A42139 /* QuartzCore.framework in Frameworks */,
@@ -203,6 +211,9 @@
 		7382AF2C0936B42FF9C82508 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18E61E1D1ADD9F4700E67F32 /* GoogleSignIn.bundle */,
+				18E61E1E1ADD9F4700E67F32 /* GoogleSignIn.framework */,
+				18E61E1B1ADD9E3700E67F32 /* AddressBook.framework */,
 				18C36A9A1ADC3F5100A42139 /* Accounts.framework */,
 				18C36A9B1ADC3F5100A42139 /* AudioToolbox.framework */,
 				18C36A9C1ADC3F5100A42139 /* CFNetwork.framework */,
@@ -307,6 +318,7 @@
 				3F2ABF9B1AD80A2B004DA0D1 /* Home.storyboard in Resources */,
 				3F6640C71AC37BA3000962FC /* LaunchScreen.xib in Resources */,
 				E27488501AD591BE004C6FD0 /* MyProfile.storyboard in Resources */,
+				18E61E1F1ADD9F4700E67F32 /* GoogleSignIn.bundle in Resources */,
 				3F6640C41AC37BA3000962FC /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +503,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Huellas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -505,6 +521,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Huellas/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,GIDSignInDelegate {
     
     let permissions = ["public_profile"]
     let transparent = UIColor.clearColor().CGColor
@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.setUpUserTextField()
         self.setUpPasswordTextField()
+        GIDSignIn.sharedInstance().scopes = ["https://www.googleapis.com/auth/plus.login"]
+        GIDSignIn.sharedInstance().delegate = self
     }
     func setUpUserTextField(){
         self.userTextField.backgroundColor = UIColor.clearColor()
@@ -45,14 +47,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func onLoginGPlusPressed(sender: AnyObject) {
-        var storyboard = UIStoryboard(name: "MyProfile", bundle: nil)
-        var controller = storyboard.instantiateViewControllerWithIdentifier("ProfileViewController") as ProfileViewController
         
-        self.presentViewController(controller, animated: true, completion: nil)
+        GIDSignIn.sharedInstance().signIn()
     }
     
     @IBAction func onLoginFacebookPressed(sender: AnyObject) {
-        PFFacebookUtils.logInWithPermissions(self.permissions, {
+        /*PFFacebookUtils.logInWithPermissions(self.permissions, {
             (user: PFUser!, error: NSError!) -> Void in
             if user == nil {
                 NSLog("Uh oh. The user cancelled the Facebook login.")
@@ -60,8 +60,31 @@ class ViewController: UIViewController {
                 self.logedIn()
             }
             
-        })
+        })*/
+        
+        
+        PFFacebookUtils.logInWithPermissions(self.permissions, block: {
+            
+            (user: PFUser?, error: NSError?) -> Void in
+            
+            if user == nil {
+                
+                NSLog("Uh oh. The user cancelled the Facebook login.")
+                
+            } else if user!.isNew {
+                
+                NSLog("User signed up and logged in through Facebook! \(user)")
+                self.logedIn()
+            } else {
+                
+                NSLog("User logged in through Facebook! \(user)")
+                self.logedIn()
             }
+            
+        })
+
+        
+    }
     
     @IBAction func onLoginButtonPressed(sender: AnyObject) {
       
@@ -71,16 +94,26 @@ class ViewController: UIViewController {
 func logedIn(){
     let storyboard = UIStoryboard(name: "Home", bundle: nil)
     storyboard.instantiateInitialViewController()
-    let fvc = storyboard.instantiateViewControllerWithIdentifier("inicioViewController") as InicioViewController
-    let rvc = storyboard.instantiateViewControllerWithIdentifier("menuController") as MenuController
+    let fvc = storyboard.instantiateViewControllerWithIdentifier("inicioViewController") as! InicioViewController
+    let rvc = storyboard.instantiateViewControllerWithIdentifier("menuController") as! MenuController
     
     let nfvc:UINavigationController = UINavigationController(rootViewController: fvc)
     let nrvc:UINavigationController = UINavigationController(rootViewController: rvc)
-    let reveal:SWRevealViewController = storyboard.instantiateViewControllerWithIdentifier("revealViewController") as SWRevealViewController
+    let reveal:SWRevealViewController = storyboard.instantiateViewControllerWithIdentifier("revealViewController") as! SWRevealViewController
     reveal.rearViewController = nrvc
     reveal.frontViewController = nfvc
     self.presentViewController(reveal, animated: true, completion: nil)
 }
 
+    
+    //MARK: G+
+    func signIn(signIn: GIDSignIn!, didDisconnectWithUser user: GIDGoogleUser!, withError error: NSError!) {
+        
+    }
+
+    func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!, withError error: NSError!) {
+        
+    }
+    
 }
 
