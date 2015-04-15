@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C466B214-4D1C-4DA0-88C0-BCF0F81C3AFC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SignInSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1C26538773438BFC44BC5C12B07A30F97E9B77C3</key>
+		<string>https://github.com/globant/huellas.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>examples/GoogleSignIn/SignInSample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1C26538773438BFC44BC5C12B07A30F97E9B77C3</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/globant/huellas.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1C26538773438BFC44BC5C12B07A30F97E9B77C3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1C26538773438BFC44BC5C12B07A30F97E9B77C3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>huellas</string>
+		</dict>
+	</array>
+</dict>
+</plist>
