@@ -13,7 +13,7 @@ import Parse
 
 let parseAppId = "wv6NRcmFQP9XTVhoC2fI71TTC4p0oF5zdgGJ8HHF"
 let parseClientKey = "vwPBQRpvDRpIEL441mfhQW0QXRgi68rOWLHV2IBn"
-let googleClientId = "332137352831-tg565ph50hjsigmocgqlaftnduikspvi.apps.googleusercontent.com"
+let googleClientId = "332137352831-mh3hvh0vb02bu5d4g4ie87e0c4pfu17s.apps.googleusercontent.com"
 
 
 @UIApplicationMain
@@ -60,7 +60,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     lazy var applicationDocumentsDirectory: NSURL = {
         // The directory the application uses to store the Core Data store file. This code uses a directory named "com.globant.labs.huellas.Huellas" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
-        return urls[urls.count-1] as! NSURL
+        return urls[urls.count-1] as NSURL
     }()
 
     lazy var managedObjectModel: NSManagedObjectModel = {

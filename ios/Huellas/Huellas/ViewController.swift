@@ -94,12 +94,12 @@ class ViewController: UIViewController,GIDSignInDelegate {
 func logedIn(){
     let storyboard = UIStoryboard(name: "Home", bundle: nil)
     storyboard.instantiateInitialViewController()
-    let fvc = storyboard.instantiateViewControllerWithIdentifier("inicioViewController") as! InicioViewController
-    let rvc = storyboard.instantiateViewControllerWithIdentifier("menuController") as! MenuController
+    let fvc = storyboard.instantiateViewControllerWithIdentifier("inicioViewController") as InicioViewController
+    let rvc = storyboard.instantiateViewControllerWithIdentifier("menuController") as MenuController
     
     let nfvc:UINavigationController = UINavigationController(rootViewController: fvc)
     let nrvc:UINavigationController = UINavigationController(rootViewController: rvc)
-    let reveal:SWRevealViewController = storyboard.instantiateViewControllerWithIdentifier("revealViewController") as! SWRevealViewController
+    let reveal:SWRevealViewController = storyboard.instantiateViewControllerWithIdentifier("revealViewController") as SWRevealViewController
     reveal.rearViewController = nrvc
     reveal.frontViewController = nfvc
     self.presentViewController(reveal, animated: true, completion: nil)
