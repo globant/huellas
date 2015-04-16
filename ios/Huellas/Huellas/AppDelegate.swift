@@ -13,7 +13,7 @@ import Parse
 
 let parseAppId = "wv6NRcmFQP9XTVhoC2fI71TTC4p0oF5zdgGJ8HHF"
 let parseClientKey = "vwPBQRpvDRpIEL441mfhQW0QXRgi68rOWLHV2IBn"
-let googleClientId = "332137352831-mh3hvh0vb02bu5d4g4ie87e0c4pfu17s.apps.googleusercontent.com"
+let googleClientId = "755602918836-qqvi6jq7di7mhb14adbgb4fl30lflq6a.apps.googleusercontent.com"
 
 
 @UIApplicationMain

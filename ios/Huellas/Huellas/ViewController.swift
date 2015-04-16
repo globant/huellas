@@ -22,6 +22,7 @@ class ViewController: UIViewController,GIDSignInDelegate {
         self.setUpPasswordTextField()
         GIDSignIn.sharedInstance().scopes = ["https://www.googleapis.com/auth/plus.login"]
         GIDSignIn.sharedInstance().delegate = self
+        GIDSignIn.sharedInstance().signInSilently()
     }
     func setUpUserTextField(){
         self.userTextField.backgroundColor = UIColor.clearColor()
@@ -112,7 +113,7 @@ func logedIn(){
     }
 
     func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!, withError error: NSError!) {
-        
+         NSLog("User Google+! \(user)")
     }
     
 }
