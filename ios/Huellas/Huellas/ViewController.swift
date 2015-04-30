@@ -114,6 +114,7 @@ func logedIn(){
 
     func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!, withError error: NSError!) {
          NSLog("User Google+! \(user)")
+        self.logedIn()
     }
     
 }
